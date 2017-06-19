@@ -1,0 +1,66 @@
+@media screen and (max-width: 600px) {
+
+	.main-navigation ul.nav-menu,
+	.main-navigation div.nav-menu > ul {
+		display: inline-block !important;
+		text-align: center;
+		width: 100%;
+	}
+	.main-navigation ul {
+		margin: 0;
+		text-indent: 0;
+	}
+	.main-navigation li a,
+	.main-navigation li {
+		display: inline-block;
+		text-decoration: none;
+		margin-top: 0;
+	}
+	.main-navigation li a {
+		border-bottom: 0;
+		color: #fff;
+		line-height:  50px;
+		text-transform: uppercase;
+		white-space: nowrap;
+		font-size:12pt;
+	}
+
+.sidebar-top-wrapper{
+margin-left: 2%;
+}
+#logo-wrapper img { width: 40px;}
+a.logotxttop {
+    color: #0000FF;
+    font-size: 13pt;
+}
+a.logotxt {
+    color: #0000FF;
+    font-size: 9pt;
+}
+#branding-wrapper {
+float: right;
+margin-top: 5%;
+margin-right: 6px;
+}
+#branding-wrapper a{
+color:#000;
+font-size:1.2rem;
+}
+.sidebar-left-wrapper{display: none;}
+.template-front-page .site-content{
+width: 60%;
+float: left;
+margin: 0.2rem 0 0;
+}
+.template-front-page .widget-area {
+width: 36%;
+margin-top: 20px;
+margin-right: 10px;
+}
+.page-template-default .widgetbox,.blog .widgetbox{
+margin-left: 10px;
+}
+
+
+
+}
